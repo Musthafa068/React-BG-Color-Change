@@ -25,7 +25,7 @@ function App() {
 
     <div style={{backgroundColor:colorchange,minHeight:"100vh"}} className='text-center'>
       <h1>Change background color</h1>
-      <input  onChange={(e)=>setColor(e.target.value)} className='form-control w-25 mx-auto mt-5' type="text" placeholder='Enter a color name'/>
+      <input  onChange={(e)=>setColor(e.target.value)} className='form-control  mx-auto mt-5' style={{width:"550px"}} type="text" placeholder='Enter a color name'/>
       <button onClick={handleColor} style={{width:"100px"}} className='bg bg-border rounded mt-3 bg-info'>Click</button>
       <button onClick={handleReset} style={{width:"100px"}} className='bg bg-border rounded mt-3 bg-info ms-3'>Reset</button>
     </div>
